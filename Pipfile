@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+name = "pypi"
+verify_ssl = true
+
+[packages]
+flask = "*"
+arrow = "*"
+
+[requires]
+python_version = "3.6"
+
+[dev-packages]
+"flake8" = "*"
+pytest = "*"
+flask-webtest = "*"
+freezegun = "*"
